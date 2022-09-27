@@ -1,4 +1,4 @@
-import {getDiff} from "./fun";
+import { getDiff } from "./fun";
 let date = new Date();
 console.log(date);
 let ans = getDiff(date);
