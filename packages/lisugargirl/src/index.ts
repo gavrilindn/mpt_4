@@ -1,3 +1,3 @@
-import {NYTime} from "./timeCounterToNY"
+import { NYTime } from "./timeCounterToNY";
 
-NYTime(new Date)
+NYTime(new Date());
