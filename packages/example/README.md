@@ -3,5 +3,6 @@
 `@types/chai @types/mocha @types/node chai mocha ts-node typescript`
 
 Для корректной работы mocha нужно его сконфигурировать через файл .mocharc.yaml, можно скопировать тот, который в примере
+
 - `spec: test/**/*.spec.ts` -- шаблон по которому будут выбраны файлы тестирования
 - `require: ts-node/register` -- указание того, что тесты так же будут написаны на TS
