@@ -9,5 +9,4 @@ describe("function getTimeToNewYear()", () => {
   it("should return 96, when getTimeToNewYear(new Date()) called", () => {
     expect(getTimeToNewYear(new Date())).to.be.equal(96);
   });
-
 });
