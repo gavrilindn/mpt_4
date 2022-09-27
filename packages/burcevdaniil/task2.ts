@@ -9,6 +9,5 @@ export function calculateTimeDifference(date: Date){
     var hours = Math.abs(targetDate.getHours() - today.getHours());
     var minutes = Math.abs(targetDate.getMinutes() - today.getMinutes());
     console.log(`${years} years, ${months} months, ${days} days, ${hours} hours and ${minutes} minutes`);
+    return Math.abs(today.getTime()-targetDate.getTime());
 }
-
-calculateTimeDifference(new Date());
