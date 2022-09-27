@@ -8,6 +8,8 @@ export function calculateTimeDifference(date: Date){
     var days = Math.abs(targetDate.getDay() - today.getDay());
     var hours = Math.abs(targetDate.getHours() - today.getHours());
     var minutes = Math.abs(targetDate.getMinutes() - today.getMinutes());
-    console.log(`${years} years, ${months} months, ${days} days, ${hours} hours and ${minutes} minutes`);
-    return Math.abs(today.getTime()-targetDate.getTime());
+    console.log(`${years} years, ${months} months`);
+    return `${years} years, ${months} months`;
 }
+
+calculateTimeDifference(new Date("01.01.2021"));
