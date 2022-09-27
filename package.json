@@ -15,5 +15,21 @@
     "test": "lerna run test",
     "prettier": "prettier --check packages",
     "prettier:write": "prettier --write packages"
+  },
+  "description": "1. Форкнуть данный репозиторий\r 1. В папке packages создать свою директорию, имя которой соответствует вашему логину на github\r 1. Внутри своей папки инициализировать репозиторий работать будем через yarn **(не npm)!!!** для единообразия\r 1. Перенести свой предыдущий проект в этот модуль\r     - yarn -- учтанавливает зависимости\r     - yarn test -- запускает тесты\r     - yarn start -- запускает приложение\r 1. Запушить изменения в свой форк\r 1. Запросить пул реквест",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForeverVirgin/mpt_4.git"
+  },
+  "author": "Chernyh V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForeverVirgin/mpt_4/issues"
+  },
+  "homepage": "https://github.com/ForeverVirgin/mpt_4#readme",
+  "dependencies": {
+    "chai": "^4.3.6"
   }
 }
