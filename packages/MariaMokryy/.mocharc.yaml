@@ -1,0 +1,4 @@
+spec: test/module.spec.ts
+require: ts-node/register
+extension:
+  - ts
