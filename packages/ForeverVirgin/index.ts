@@ -1,3 +1,3 @@
 import { countDays } from "./countDays"
-
-countDays(new Date())
+var result = countDays(new Date())
+console.log(result)
