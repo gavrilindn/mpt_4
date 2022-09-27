@@ -9,5 +9,5 @@ export function re(now: Date){
     time = time % 60000
     var seconds = Math.floor(time / 1000)
     time = time % 1000
-    console.log("Осталось ", days , " дней ", hours, " часов ", minutes, " минут ", seconds, " секунд ", time, "миллисекунд") 
+    return `Осталось ${days} дней ${hours} часов ${minutes} минут ${seconds} секунд ${time} миллисекунд`
 } 
