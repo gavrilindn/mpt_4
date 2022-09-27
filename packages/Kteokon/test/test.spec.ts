@@ -17,7 +17,7 @@ describe("Days before New Year", function () {
   it("Time left from 2016-05-19", function () {
     assert.equal(
       daysLeft(new Date("2016-05-19")),
-      "Time left before New Year: 226 days 16 hours 0 minutes 0 seconds"
+      "Time left before New Year: 227 days 0 hours 0 minutes 0 seconds"
     );
   });
 
