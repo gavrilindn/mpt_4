@@ -1,0 +1,8 @@
+{
+  "name": "carrotpai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carrotpai/mpt_4.git",
+  "author": "Belkin A",
+  "license": "ISC"
+}
