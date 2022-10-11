@@ -13,7 +13,7 @@
   "homepage": "https://github.com/carrotpai/mpt_4#readme",
   "author": "Belkin A",
   "scripts": {
-    "test": "ts-node ../../node_modules/ts-mocha/bin/ts-mocha test/**/*.ts",
+    "test": "mocha",
     "start": "ts-node test.ts"
   },
   "dependencies": {
