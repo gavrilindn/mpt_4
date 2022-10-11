@@ -20,26 +20,25 @@
 //     second: 'numeric'
 // };
 
-
 // function addZero(value: string) {
 //     if (parseInt(value) < 10) value = `0${value}`;
 //     return value;
 // }
 
 export function calculate(beginDate: Date) {
-    let newYear = new Date(beginDate.getFullYear() + 1, 0, 1, 0, 0, 0, 0);
-    let diff = (newYear.getTime() - beginDate.getTime()) / 1000;
-    var day: number, hour: number, minute: number, second: number;
-    day = Math.round(diff / 60 / 60 / 24);
-    hour = Math.round(diff / 60 / 60 % 24);
-    minute = Math.round(diff / 60 % 60);
-    second = Math.round(diff % 60);
-    return {
-        days: day,
-        hours: hour,
-        minutes: minute,
-        seconds: second
-    }
+  let newYear = new Date(beginDate.getFullYear() + 1, 0, 1, 0, 0, 0, 0);
+  let diff = (newYear.getTime() - beginDate.getTime()) / 1000;
+  var day: number, hour: number, minute: number, second: number;
+  day = Math.round(diff / 60 / 60 / 24);
+  hour = Math.round((diff / 60 / 60) % 24);
+  minute = Math.round((diff / 60) % 60);
+  second = Math.round(diff % 60);
+  return {
+    days: day,
+    hours: hour,
+    minutes: minute,
+    seconds: second,
+  };
 }
 
 // function updateValues() {
