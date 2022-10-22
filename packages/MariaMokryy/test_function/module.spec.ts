@@ -6,7 +6,7 @@ describe("function getTimeToNewYear()", () => {
     expect(getTimeToNewYear(new Date(2023, 0, 2, 0, 0, 0))).to.be.equal(365);
   });
 
-  it("should return 96, when getTimeToNewYear(new Date()) called", () => {
+  it.skip("should return 96, when getTimeToNewYear(new Date()) called", () => {
     expect(getTimeToNewYear(new Date())).to.be.equal(96);
   });
 });
